@@ -32,6 +32,10 @@ class MasterViewController: UITableViewController {
     func getContacts() {
         
     }
+    
+    func addExistingContact() {
+        
+    }
 
     override func viewWillAppear(animated: Bool) {
         self.clearsSelectionOnViewWillAppear = self.splitViewController!.collapsed
